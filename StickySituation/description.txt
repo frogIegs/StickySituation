@@ -1,0 +1,58 @@
+[i:23]Sticky Situation[i:23]
+More uses for gel!
+
+Currently adds :
+
+[i:75]Gel Sword
+[i:75]Gel Boomerang
+[i:75]Gel Javelin
+[i:75]Gel Bow
+[i:75]Gel Coated Arrows
+[i:75]Gel YoYo
+[i:75]Gel Anvil
+[i:75]Gel Bar (4 gel at a furnace)
+
+Changelog :
+
+v0.1.5
+[i:1291]merchant sells gold crowns after king slime is defeated
+[i:1291]merchant sells various new items
+[i:1291]fixed gel javelin hitbox
+[i:1291]linked to github
+[i:1291]gold/platinum crowns & bars are interchangeable at any anvil
+[i:1291]made gel javelin hitbox larger
+[i:1291]solidifier can be crafted
+[i:1291]added mod homepage
+[i:1291]added gel anvil
+[i:1291]added gel bars
+[i:1291]gel items must be crafted at gel anvil with gel bars
+
+v0.1.4
+[i:58]added mod icon
+[i:58]added gel bow
+[i:58]gel boomerang shoots slower
+[i:58]gel boomerang is no longer auto-reuse
+[i:58]changed gel javelin tile-hit sound
+[i:58]added gel coated arrows
+[i:58]gel javelin ai changed
+[i:58]gel javelin use time increased
+[i:58]gel javelin no longer auto reuse
+[i:58]reduced gel crafting cost for gel sword, gel boomerang, and gel bow even more
+[i:58]added gel yoyo
+[i:58]merchant sells gel coated arrows & gel
+
+v0.1.3
+[i:109]added gel javelin
+[i:109]readded gel boomerang (fixed)
+[i:109]fixed errors
+
+v0.1.2
+[i:1291]temporarially removed gel boomerang
+
+v0.1.1
+[i:58]added gel boomerang
+[i:58]reduced gel crafting cost from 99 to 75
+
+v0.1
+[i:109]added gel sword
+[i:109]mod created

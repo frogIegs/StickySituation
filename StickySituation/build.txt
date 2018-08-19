@@ -1,0 +1,9 @@
+author = froglegs
+version = 0.1.5.4
+displayName = Sticky Situation
+homepage = https://forums.terraria.org/index.php?threads/sticky-situation-v0-1-4.71986/
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, TerrariaSprites\*
+includePDB = true
