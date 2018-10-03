@@ -28,7 +28,7 @@ namespace StickySituation.Items
             item.useAnimation = 25;   //this is how fast the animation when the item is used
             item.useStyle = 1;      
             item.knockBack = 4;
-            item.value = 1;
+            item.value = 85;
             item.rare = 1;
             item.reuseDelay = 10;    //this is the item delay
             item.UseSound = SoundID.Item1;
@@ -48,6 +48,18 @@ namespace StickySituation.Items
 			recipe.AddTile(null, "GelAnvil");
 			recipe.SetResult(this, 50);
 			recipe.AddRecipe();
+
+            ModRecipe recipe2 = new ModRecipe(mod);
+			recipe2.AddIngredient(null, "GelBar", 5);
+			recipe2.AddTile(null, "MythrilGA");
+			recipe2.SetResult(this, 50);
+			recipe2.AddRecipe();
+
+            ModRecipe recipe3 = new ModRecipe(mod);
+			recipe3.AddIngredient(null, "GelBar", 5);
+			recipe3.AddTile(null, "OrichalcumGA");
+			recipe3.SetResult(this, 50);
+			recipe3.AddRecipe();
 		}
     }
 }

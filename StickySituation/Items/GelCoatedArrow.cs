@@ -34,11 +34,25 @@ namespace StickySituation.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.WoodenArrow, 20);
+            recipe.AddIngredient(ItemID.WoodenArrow, 10);
             recipe.AddIngredient(null, "GelBar", 1);
             recipe.AddTile(null, "GelAnvil");
-            recipe.SetResult(this, 20);
+            recipe.SetResult(this, 10);
             recipe.AddRecipe();
+
+            ModRecipe recipe2 = new ModRecipe(mod);
+            recipe2.AddIngredient(ItemID.WoodenArrow, 10);
+            recipe2.AddIngredient(null, "GelBar", 1);
+            recipe2.AddTile(null, "OrichalcumGA");
+            recipe2.SetResult(this, 10);
+            recipe2.AddRecipe();
+
+            ModRecipe recipe3 = new ModRecipe(mod);
+            recipe3.AddIngredient(ItemID.WoodenArrow, 10);
+            recipe3.AddIngredient(null, "GelBar", 1);
+            recipe3.AddTile(null, "MythrilGA");
+            recipe3.SetResult(this, 10);
+            recipe3.AddRecipe();
         }
     }
 }

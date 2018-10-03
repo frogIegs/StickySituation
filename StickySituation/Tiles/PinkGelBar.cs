@@ -6,7 +6,7 @@ using Terraria.ObjectData;
 
 namespace StickySituation.Tiles
 {
-    public class GelBar : ModTile
+    public class PinkGelBar : ModTile
     {
         public override void SetDefaults()
         {
@@ -18,9 +18,8 @@ namespace StickySituation.Tiles
             TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
             TileObjectData.newTile.CoordinateHeights = new int[] { 18 };
             TileObjectData.addTile(Type);
-            AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
             ModTranslation name = CreateMapEntryName();
-            name.SetDefault("Gel Bar");
+            name.SetDefault("Pink Gel Bar");
             AddMapEntry(new Color(200, 200, 200), name);
             disableSmartCursor = true;
         }
@@ -32,7 +31,7 @@ namespace StickySituation.Tiles
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            Item.NewItem(/*i **/ 16, /*j **/ 16, 16, 16, mod.ItemType("GelBar"));
+            Item.NewItem(/*i **/ 16, /*j **/ 16, 16, 16, mod.ItemType("PinkGelBar"));
         }
     }
 }

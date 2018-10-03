@@ -33,6 +33,16 @@ namespace StickySituation.Items
 			recipe.AddTile(null, "GelAnvil");
 			recipe.SetResult(this);
 			recipe.AddRecipe();
+            ModRecipe recipe_1 = new ModRecipe(mod);
+			recipe_1.AddIngredient(null, "GelBar", 8);
+			recipe_1.AddTile(null, "MythrilGA");
+			recipe_1.SetResult(this);
+			recipe_1.AddRecipe();
+            ModRecipe recipe_2 = new ModRecipe(mod);
+			recipe_2.AddIngredient(null, "GelBar", 8);
+			recipe_2.AddTile(null, "OrichalcumGA");
+			recipe_2.SetResult(this);
+			recipe_2.AddRecipe();
 
             ModRecipe recipe1 = new ModRecipe(mod);
             recipe1.AddIngredient(ItemID.GoldCrown);

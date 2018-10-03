@@ -1,7 +1,6 @@
 author = froglegs
-version = 0.1.6
-displayName = Sticky Situation
-homepage = https://forums.terraria.org/index.php?threads/sticky-situation-v0-1-4.71986/
+version = 0.0.1
+displayName = Froglegs' Mod
 hideCode = false
 hideResources = false
 includeSource = true
